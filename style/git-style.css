@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.class{
+.class {
     color: blueviolet;
 }
 
-.blog{
+.blog {
     width: 500px;
     padding: 15px;
     border: 1px solid gray;
@@ -15,20 +15,20 @@
     background: lightskyblue;
 }
 
-.box{
+.box {
     width: 50%;
     aspect-ratio: 1;
     background-color: blue;
     margin-bottom: 50px;
 }
 
-/* 
+form:has(input:focus) {
+    background-color: red;
+}
+
+ 
 .box :is(.headingText, .paraText, .paraText2){
     color: orange;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: black;
-} */
+    text-wrap:balance;
+    background-color: blueviolet;
+} 
