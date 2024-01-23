@@ -10,6 +10,7 @@
 .blog {
     width: 500px;
     padding: 15px;
+    margin-bottom: 20px;
     border: 1px solid gray;
     border-radius: 10px;
     background: lightskyblue;
@@ -21,7 +22,7 @@
     background-color: blue;
     margin-bottom: 50px;
 }
-
+/*  
 form:has(input:focus) {
     background-color: red;
 }
@@ -31,4 +32,12 @@ form:has(input:focus) {
     color: orange;
     text-wrap:balance;
     background-color: blueviolet;
-} 
+} */
+
+
+
+
+
+
+
+
